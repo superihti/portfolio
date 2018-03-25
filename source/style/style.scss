@@ -1,0 +1,41 @@
+@import "../../node_modules/normalize.scss/normalize.scss"; 
+@import "import/proximanova.scss";  
+html { 
+    font-size: 10px; 
+}
+body {
+    min-width: 320px;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'ProximaNovaRg';     
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+	max-width: 1140px;
+    margin: 0 auto;
+}
+.box {
+    border: 2px solid red;
+}
+
+@import "import/header.scss";
+/*
+@import "import/sprite.sass";
+
+@import "import/banner.scss";
+@import "import/about.scss";
+@import "import/approch.scss";
+@import "import/work.scss";
+@import "import/analysis.scss";
+@import "import/subscribe.scss";
+@import "import/footer.scss";
+*/

@@ -1,0 +1,46 @@
+.header {
+    
+}
+.header-contact-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.header-contact {
+    
+}
+.header-contact__item {
+    font-size: 2rem;
+    padding: 1rem;
+    color: #393939;
+}
+.header-nav {
+    
+}
+.header-nav__item {
+    display: inline-block;
+}
+.header-nav__item-link {
+    color:  #393939;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+.header-main {
+    background-color: #a49a94;
+    background-image: url(../../images/header-min.jpg);
+    height: 472px;
+}
+.header-main__foto {
+    
+}
+.header-main__h2 {
+    
+}
+.header-main__h3 {
+    
+}
+.header-main__button {
+    
+}
