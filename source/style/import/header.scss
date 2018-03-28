@@ -14,6 +14,10 @@
     font-size: 2.5rem;
     padding: 1rem;
     color: #393939;
+        &:hover {
+        transition: 0.3s;
+        color: #1275b9;
+        }
 }
 .header-nav {
     
@@ -26,13 +30,17 @@
     font-size: 1.8rem;
     text-transform: uppercase;
     padding: 1rem;
+    &:hover {
+        transition: 0.3s;
+        color: #1275b9;
+        }  
 }
 .header-main {
     background-color: #a49a94;
     background-image: url(../../images/header-min.jpg );
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     height: 38rem;
     display: flex;
     flex-direction: column;
