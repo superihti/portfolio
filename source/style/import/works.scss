@@ -11,13 +11,32 @@
    flex-wrap: wrap;
 }
 .works__item {
+   position: relative;
+   &:hover .works__item-hover {
+       display: block;       
+     } 
+}
+
+.works__item-img {
+   transition: 0.2s;
    max-width: 32rem;
    max-height: 32rem;
    margin: 2rem;
-   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-   transition: 0.2s; 
-   &:hover {
-       
-       transform: scale(1.05);
-     }
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+}
+.works__item-hover {
+    display: none;
+    position: absolute;
+    left: 3rem;
+    top: 3rem;
+    width: 30rem;
+    height: 30rem;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    opacity: 0.7;
+    box-sizing: border-box;
+    padding-top: 12rem;
+    font-size: 2rem;
+ 
 }
