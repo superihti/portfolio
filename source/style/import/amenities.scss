@@ -1,39 +1,3 @@
-/*.amenities {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 7rem;
-    
-}
-.amenities__item {
-    text-align: center;
-    padding: 2rem;
-}
-.amenities__item-fa {
-    font-size: 3rem;
-    line-height: 7rem !important; 
-    background-color: #1275b9;
-    border-radius: 50%;
-    width: 7rem;
-    height: 7rem;
-    color: #fff;
-    
-}
-.amenities__item-title {
-    margin-top: 2rem;
-    color:  #000;
-    font-size: 1.8rem;
-    font-family: 'ProximaNovaSem';
-    text-transform: uppercase;
-    letter-spacing: 0.1rem
-
-    
-}
-.amenities__item-description {
-    color:  #555;
-    font-size: 1.4rem;
-    font-family: 'ProximaNovaLt';
-}
-*/
 .amenities {
     margin-top: 7rem;
     
@@ -55,8 +19,6 @@
     
 }
 .amenities-row__title {
-    
-    color:  #000;
     font-size: 1.8rem;
     font-family: 'ProximaNovaSem';
     text-transform: uppercase;

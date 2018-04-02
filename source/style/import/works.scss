@@ -1,0 +1,23 @@
+.works {
+   margin-top: 10rem; 
+}
+.works__h2 {
+   font-size: 3rem;
+   text-align: center;
+}
+.works-wrap {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.works__item {
+   max-width: 32rem;
+   max-height: 32rem;
+   margin: 2rem;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   transition: 0.2s; 
+   &:hover {
+       
+       transform: scale(1.05);
+     }
+}
