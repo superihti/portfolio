@@ -73,7 +73,8 @@ gulp.task('copy-img', function() {
 /* ------------ js ------------- */
 gulp.task('js', function() {
   return gulp.src(['source/js/form.js',
-                  'source/js/main.js'
+                  'source/js/slick.js',
+				  'source/js/main.js'
 				  ])
 	.pipe(sourcemaps.init())
 	.pipe(concat('scrypt.js'))

@@ -1,0 +1,33 @@
+.comments {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    
+}
+.comments__h2 {
+   font-size: 3rem;
+   text-align: center;
+}
+.comments-slider {
+    max-width: 73rem;
+    margin: auto;
+}
+.comments-slide {
+    position: relative;
+}
+.comments-slide__img {
+    width: 100%;
+    
+    
+    margin: auto;
+}
+.comments-slide__descr {
+    position: absolute;
+    bottom: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+ 
+}
