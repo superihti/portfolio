@@ -1,6 +1,7 @@
 .comments {
     margin-top: 10rem;
-    margin-bottom: 10rem;
+    
+    
     
 }
 .comments__h2 {
@@ -10,6 +11,7 @@
 .comments-slider {
     max-width: 73rem;
     margin: auto;
+    
 }
 .comments-slide {
     position: relative;
@@ -20,6 +22,21 @@
     
     margin: auto;
 }
+.comments-fa__next,
+.comments-fa__prev {
+    font-size: 5rem;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    bottom: 45%;
+    right: -5rem;
+    opacity: 0.75;
+    
+}
+.comments-fa__prev{
+    
+    left:  -5rem;
+}
 .comments-slide__descr {
     position: absolute;
     bottom: 1rem;
@@ -29,5 +46,6 @@
     padding: 2rem;
     text-align: center;
     box-sizing: border-box;
+    
  
 }

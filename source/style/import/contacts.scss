@@ -1,0 +1,19 @@
+.conacts {
+    margin-top: 10rem;
+    
+    
+    
+}
+.conacts__h2 {
+   font-size: 3rem;
+   text-align: center;
+}
+.contacts-social__item {
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: #393939;
+        &:hover {
+        transition: 0.3s;
+        color: #1275b9;
+        }
+}
