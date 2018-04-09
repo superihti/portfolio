@@ -1,18 +1,69 @@
 .conacts {
     margin-top: 10rem;
-    
-    
-    
 }
 .conacts__h2 {
    font-size: 3rem;
    text-align: center;
 }
+.conacts-wrap {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.conacts-form {
+    width: 45%;
+}
+.conacts-form__descr {
+    font-size: 2rem;
+}    
+.conacts-form__form {
+    display: flex;
+    flex-direction: column;
+}    
+.conacts-form__name,
+.conacts-form__email,
+.conacts-form__message,
+.conacts-form__button{
+    margin-top: 2rem;
+    width: 35rem;
+    height: 5rem;
+    background-color: #1275b9;
+    border-radius: 5px;
+    border-color: #1275b9;
+    color: #fff;
+    font-size: 2rem;
+    align-self: center;
+    &::placeholder {
+        color: #eee;
+    }
+}
+.conacts-form__email {
+    
+}
+.conacts-form__message {
+    height: 10rem;
+}
+.conacts-form__button{
+    width: 20rem;
+    &:hover {
+        transition: 0.3s;
+        background-color: darken(#1275b9, 10%);
+        }  
+}
+.conacts-social {
+    
+}
+.conacts-social__ul {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
 .contacts-social__item {
     font-size: 2.5rem;
     padding: 1rem;
     color: #393939;
-        &:hover {
+    &:hover {
         transition: 0.3s;
         color: #1275b9;
         }
