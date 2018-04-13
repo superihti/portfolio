@@ -27,7 +27,7 @@ gulp.task('server', function() {
 
 // ------------------Pug----------------------------
 gulp.task('pug', function buildHTML() {
-  return gulp.src('source/template/index.pug')
+  return gulp.src('source/template/*.pug')
   .pipe(pug({
     pretty: true 
   }))

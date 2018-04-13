@@ -1,13 +1,13 @@
-.amenities {
+.service {
     margin-top: 7rem;
     
 }
-.amenities-row {
+.service-row {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-.amenities-row__fa {
+.service-row__fa {
     
     font-size: 3rem;
     line-height: 7rem !important; 
@@ -18,7 +18,7 @@
     color: #fff;
     
 }
-.amenities-row__title {
+.service-row__title {
     font-size: 1.8rem;
     font-family: 'ProximaNovaSem';
     text-transform: uppercase;
@@ -26,7 +26,7 @@
     flex-basis: 33%;
     padding: 2rem;
 }
-.amenities-row__description {
+.service-row__description {
     color:  #555;
     font-size: 1.4rem;
     font-family: 'ProximaNovaLt';

@@ -1,0 +1,30 @@
+.inner-page-header-main {
+    display: block;
+    height: 7rem;
+    
+       
+}
+.inner-page-header-main-wrap {
+    display: flex;
+    
+}
+.inner-page-header-main__h1 {
+    margin: 0;
+    padding-left: 1rem;
+    line-height: 7rem;
+}
+.inner-page-content {
+    margin-top: 5rem;
+    padding-left: 1rem;
+    min-height: calc(100vh - 32rem);
+    
+}
+.inner-page-content__h2 {
+    font-size: 2.4rem;
+    color: #1275b9;
+    margin: 0;
+}
+.inner-page-content__p {
+    font-size: 1.8rem;
+    margin-bottom: 5rem;
+}

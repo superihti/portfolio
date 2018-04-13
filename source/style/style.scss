@@ -7,6 +7,7 @@ html {
 }
 body {
     min-width: 320px;
+    min-height: 100vh;
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
@@ -30,14 +31,16 @@ a {
 }
 
 @import "import/header.scss";
-@import "import/amenities.scss";
+@import "import/service.scss";
 @import "import/works.scss";
 @import "import/comments.scss";
 @import "import/contacts.scss";
 @import "import/footer.scss";
+@import "import/inner-page.scss";
+@import "import/portfolio.scss";
 /*
 
-@import "import/analysis.scss";
-@import "import/subscribe.scss";
-@import "import/footer.scss";
+
+
+@import "import/portfolio.scss";
 */
