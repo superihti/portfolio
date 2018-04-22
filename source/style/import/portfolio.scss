@@ -33,7 +33,7 @@
 
 .portfolio-content-wrap {
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
    flex-wrap: wrap;
 }
 .portfolio-content__item {
@@ -53,16 +53,23 @@
 .portfolio-content__item-hover {
     display: none;
     position: absolute;
-    left: 3rem;
-    top: 3rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     width: 21rem;
     height: 21rem;
     background-color: #000;
     color: #fff;
-    text-align: center;
     opacity: 0.7;
     box-sizing: border-box;
-    padding-top: 12rem;
     font-size: 2rem;
  
+}
+.portfolio-content__item-hover-span {
+    position: absolute;
+    width: 21rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
 }
