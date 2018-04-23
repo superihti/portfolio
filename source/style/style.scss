@@ -4,6 +4,9 @@
 @import "import/slick-theme.scss";
 html { 
     font-size: 10px; 
+    @media screen and (max-width: 840px) {
+       font-size: 8px;
+    }
 }
 body {
     min-width: 320px;
@@ -38,9 +41,11 @@ a {
 @import "import/footer.scss";
 @import "import/inner-page.scss";
 @import "import/portfolio.scss";
+@import "import/portfolio-item.scss";
+@import "import/portfolio-categoty.scss";
 /*
 
 
 
-@import "import/portfolio.scss";
+@import "import/portfolio-categoty.scss";
 */

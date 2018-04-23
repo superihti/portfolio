@@ -8,4 +8,13 @@
     line-height: 5rem;
     
 }
- 
+.top-button {
+    
+   position:fixed;
+   bottom:4rem; /* отступ кнопки от нижнего края страницы*/
+   right:2rem;
+   cursor:pointer;
+   display:none;     
+   color:#333;
+   font-size:5rem;
+} 
