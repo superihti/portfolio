@@ -8,13 +8,25 @@
 .conacts-wrap {
     display: flex; 
     justify-content: space-around;
-    flex-wrap: wrap;
+    
+    
+    @media screen and (max-width: 580px) {
+        flex-direction: column;
+        align-items: center;
+         } 
 }
 .conacts-form {
     width: 45%;
+    @media screen and (max-width: 580px) {
+        width: 90%;
+         } 
 }
 .conacts-form__descr {
     font-size: 2rem;
+    
+    @media screen and (max-width: 580px) {
+        text-align: center;
+         } 
 }    
 .conacts-form__form {
     display: flex;
@@ -26,7 +38,7 @@
 .conacts-form__button{
     margin-top: 2rem;
     padding: 0 1rem;
-    width: 35rem;
+    width: 80%;
     height: 5rem;
     background-color: #1275b9;
     border-radius: 5px;
@@ -51,9 +63,14 @@
         transition: 0.3s;
         background-color: darken(#1275b9, 10%);
         }  
+        @media screen and (max-width: 580px) {
+            margin-bottom: 5rem;
+             }         
 }
 .conacts-social {
-    
+    @media screen and (max-width: 580px) {
+        width: 90%;
+         } 
 }
 .conacts-social__ul {
     display: flex;

@@ -1,15 +1,25 @@
 .portfolio-wrap {
     display: flex;
     justify-content: space-between;
+    
+    @media screen and (max-width: 640px) {
+        flex-direction: column;
+         } 
 }
 .portfolio-nav {
     flex-basis: 25%;
     padding-right: 1rem;
     border-right: 3px solid #1275b9;
+    @media screen and (max-width: 640px) {
+        border-right: none;
+        text-align: center;
+         } 
 }
 .portfolio-nav__item {
    margin: 2rem 0;
-   
+   @media screen and (max-width: 640px) {
+    margin-top: 0;
+     } 
    
 }
 .portfolio-nav__item-link {

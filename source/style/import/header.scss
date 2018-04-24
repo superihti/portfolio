@@ -20,7 +20,7 @@
         }
 }
 .header-nav {
-    
+   text-align:  right;
 }
 .header-nav__item {
     display: inline-block;
@@ -33,7 +33,10 @@
     &:hover {
         transition: 0.3s;
         color: #1275b9;
-        }  
+        }
+     @media screen and (max-width: 580px) {
+        padding: 0.5rem;
+         }      
 }
 .header-main {
     background-color: #a49a94;
